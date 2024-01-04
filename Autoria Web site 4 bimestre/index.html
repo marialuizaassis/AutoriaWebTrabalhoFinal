@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lú Perfumaria</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Lú Perfumaria</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="sites_principais/produtos.html">Produtos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sites_principais/cadastro.html">Cadastro</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sites_principais/carrinho.html">              
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+                  <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Pesquise aqui" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active d-flex ">
+            <img src="img/imagem1.jpg" class="d-block w-100" style="height: 500px;" alt="Imagem ilustrativa 1">
+          </div>
+          <div class="carousel-item">
+            <img src="img/imagem2.jpg" class="d-block w-100" style="height: 500px;" alt="Imagem ilustrativa 2">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div></br>
+
+    <div class="modal-dialog modal-dialog-scrollable">Algumas ofertas:</div>
+
+    <div class="d-flex justify-content-center">
+    <div class="container mt-5">
+      <div class="row">
+      <div class="card-group">
+        <div class="col-md-4 mb-4">
+          <div class="card">
+              <img src="img/EssencialT.png" class="card-img-top" alt="Imagem do Essencial Feminino">
+              <div class="card-body">
+                <h4 class="card-title">Essencial Tradicional</h4>
+                <p><del>De: R$ 239,00</del></p>
+                <h5 class="card-text">Por: R$ 167,30</h5>
+                <p class="card-text" style="color: black;">O queridinho das mulheres.</p>
+                <a href="sites_dos_produtos/essencialT.html" class="btn btn-primary">Ir ao Produto</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="img/KMasculino.jpg" class="card-img-top" alt="Imagem do K Deo Parfum Masculino">
+              <div class="card-body">
+                <h4 class="card-title">K Deo Parfum Masculino</h4>
+                <p><del>De: R$ 239,00</del></p>
+                <h5 class="card-text">Por: R$ 166,90</h5>
+                <p class="card-text" style="color: black;">O mais queridinho pelos homens. </p>
+                <a href="sites_dos_produtos/KMaculino.html" class="btn btn-primary">Ir ao Produto</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="img/Kaiakmasc.jpeg" class="card-img-top" alt="Imagem de 2 perfumes DEO kaiak Masculino">
+              <div class="card-body">
+                <h4 class="card-title">2 DEO kaiak Masculino </h5>
+                <p><del>De: R$ 70,90</del></p>
+                <h5 class="card-text">Por: R$ 63,81</h5>
+                <p class="card-text" style="color: black;"> Os mais queridinhos pelos clientes</p>
+                <a href="sites_dos_produtos/kaiakmascdeo.html" class="btn btn-primary">Ir ao Produto</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="img/lunatradicional.jpg" class="card-img-top" alt="Imagem do Luna Desodorante Colônia">
+              <div class="card-body">
+                <h4 class="card-title">Luna Desodorante Colônia </h5>
+                <p><del>De: R$ 157,90</del></p>
+                <h5 class="card-text">Por: R$ 78,95</h5>
+                <p class="card-text" style="color: black;"> A fragrancia da linha luna mais amada pela clientes.</p>
+                <a href="sites_dos_produtos/luna.html" class="btn btn-primary">Ir ao Produto</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="img/sabmacadamia.jpg" class="card-img-top" alt="Imagem do Sabonete em Barra Puro Vegetal Tododia Macadâmia">
+              <div class="card-body">
+                <h4 class="card-title">Sabonete em Barra Puro Vegetal Tododia Macadâmia </h5>
+                <p><del>De: R$ R$ 28,90</del></p>
+                <h5 class="card-text">Por: R$ 25,90</h5>
+                <p class="card-text" style="color: black;"> A fragrancia de sabonete mais amada pela clientes.</p>
+                <a href="sites_dos_produtos/sabmacadamia.html" class="btn btn-primary">Ir ao Produto</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p style="padding-left: 20px;">Nos sigam nas redes sociais <a target="_blank" href="https://www.instagram.com/luperfumariacachoeira/"> @Lú Perfumaria Cachoeira</a></p>
+    </footer>
+        
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" ></script>
+</body>
+</html>
