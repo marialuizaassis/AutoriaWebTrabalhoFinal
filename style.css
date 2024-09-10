@@ -1,0 +1,65 @@
+body {
+    padding-left: 20px; 
+    padding-right: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+.container-fluid{
+    background-color: pink;
+}
+#carouselExampleIndicators{
+    padding-left: 100px; 
+    padding-right: 100px;
+}
+.justify-content-center{
+    text-align: center;
+}
+.card{
+    text-align: center;
+    width: 305px;
+    height: 600px; 
+}
+.card-text{
+    color: rgb(34, 202, 34)
+}
+.card-img-top{
+    width: 300px;
+}
+.modal-dialog-scrollable{
+    font-weight: bold;
+    font-size: 2em;
+}
+.text-break{
+    font-weight: bold;
+    font-size: 2em;
+}
+.form-label{
+    display:flex;
+    justify-content: start;
+}
+.bordered {
+    border: 10px solid pink;
+}
+footer {
+    background-color: pink;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.custom-line-height {
+    line-height: 2; 
+}
+.fw-bold{
+    font-size: 2em;
+}
+.btn{
+    background-color: rgb(240, 0, 96);
+    color:black;
+}
+.text-uppercase{
+    margin-top: 250px;
+    font-weight: bold;
+}
+.mt-5{
+    margin-bottom: 100px;
+}

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lú Perfumaria</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="../style.css">
+    <script src="../product-card.js" defer></script>
+    
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html">Lú Perfumaria</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Produtos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="cadastro.html">Cadastro</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="carrinho.html">              
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+              <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+              </svg>
+            </a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Pesquise aqui" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <p class="text-break"> Aqui estão os nossos produtos disponiveis: </p>
+  <div class="input-group mb-3">
+  <button class="btn btn-outline-secondary" type="button">Ordenar Por:</button>
+  <select class="form-select" id="inputGroupSelect03" aria-label="Example select with button addon">
+    <option selected>Escolha Aqui</option>
+    <option value="1">Produtos Femininos</option>
+    <option value="2">Produtos Masculinos</option>
+    <option value="3">Sabonetes</option>
+  </select>
+  </div>
+  <p class="fs-4">Produtos Femininos</p>
+  <div class="container mt-5">
+    <div class="row">
+        <div class="col-md-4">
+            <product-card 
+                img="../img/EssencialT.png" 
+                alt="Imagem do Essencial Feminino" 
+                titulo="Essencial Tradicional" 
+                preçoantigo="239,00" 
+                novopreço="167,30" 
+                descrição="O queridinho das mulheres."
+                link="../sites_dos_produtos/essencialT.html">
+            </product-card>
+        </div>
+        <div class="col-md-4">
+            <product-card 
+                img="../img/unat.jpg" 
+                alt="Imagem do Una Deo Parfum" 
+                titulo="Una Deo Parfum" 
+                novopreço="269,00"  
+                descrição="O queridinho das mulheres."
+                link="#">
+            </product-card>
+        </div>
+        <div class="col-md-4">
+            <product-card 
+                img="../img/ekosmaracuja.jpg"
+                alt="Imagem do Ekos Frescor Maracujá Desodorante Colônia Feminino"
+                titulo="Ekos Frescor Maracujá Desodorante Colônia Feminino" 
+                preçoantigo="103,90" 
+                novopreço="51,95" 
+                descrição="O perfume com a fragrância mais suave."
+                link="#">
+            </product-card>
+        </div>
+        <div class="col-md-4">
+            <product-card 
+                img="../img/bodysplashmangarosa.jpg"
+                alt="Imagem do Body Splash Manga Rosa e Água de Coco"
+                titulo="Body Splash Manga Rosa e Água de Coco" 
+                novopreço="69,90" 
+                descrição="O perfume com a fragrância mais suave."
+                link="#">
+            </product-card>
+        </div>
+        <div class="col-md-4">
+            <product-card 
+                img="../img/lunatradicional.jpg"
+                alt="Imagem do Luna Desodorante Colônia"
+                titulo="Luna Desodorante Colônia"
+                preçoantigo="157,90"  
+                novopreço="78,95" 
+                descrição="A fragrancia da linha luna mais amada pela clientes."
+                link="../sites_dos_produtos/luna.html">
+            </product-card>
+        </div>
+    </div>
+  </div>
+
+  <p class="fs-4">Produtos Masculinos</p>
+  <div class="container mt-5">
+    <div class="row">
+        <div class="col-md-4">
+            <product-card 
+                img="../img/KMasculino.jpg" 
+                alt="Imagem do K Deo Parfum Masculino" 
+                titulo="K Deo Parfum Masculino" 
+                preçoantigo="239,00" 
+                novopreço="166,90" 
+                descrição="O mais queridinho pelos clientes."
+                link="../sites_dos_produtos/KMaculino.html">
+            </product-card>
+        </div>
+        <div class="col-md-4">
+            <product-card 
+                img="../img/BiografiaM.jpg" 
+                alt="Imagem do Biografia Desodorante Colônia Masculino" 
+                titulo="Biografia Desodorante Colônia Masculino" 
+                novopreço="180,90" 
+                descrição="A essência mais procurada pelos homens."
+                link="#">
+        </product-card>
+        </div>
+        <div class="col-md-4">
+            <product-card 
+                img="../img/Kaiakmasc.jpeg" 
+                alt="Imagem de 2 perfumes DEO Kaiak Masculino" 
+                titulo="2 DEO Kaiak Masculino" 
+                preçoantigo="70,90" 
+                novopreço="63,81" 
+                descrição="Os mais queridinhos pelos clientes."
+                link="../sites_dos_produtos/kaiakmascdeo.html">
+            </product-card>
+        </div>
+        <div class="col-md-4">
+            <product-card 
+                img="../img/CremdebarbearHomem.jpg"
+                alt="Imagem do Creme de Barbear Natura Homem" 
+                titulo="Creme de Barbear Natura Homem" 
+                preçoantigo="46,40" 
+                novopreço="29,90" 
+                descrição="A essência de creme de barbear melhor."
+                link="#">
+            </product-card>
+        </div>
+        <div class="col-md-4">
+            <product-card 
+                img="../img/balmPBarbaHomem.jpg"
+                alt="Imagem do Balm Pós-Barba Natura Homem" 
+                titulo="Balm Pós-Barba Natura Homem" 
+                preçoantigo="70,90" 
+                novopreço="63,81" 
+                descrição="A essência de pós-barba melhor."
+                link="#">
+            </product-card>
+        </div>
+    </div>
+  </div>
+
+  <p class="fs-4">Sabonetes</p>
+  <div class="container mt-5">
+    <div class="row">
+        <div class="col-md-4">
+            <product-card 
+                img="../img/sabAcerolaehisco.jpg" 
+                alt="Imagem do Sabonete em Barra Puro Vegetal Tododia Acerola e Hibisco" 
+                titulo="Sabonete em Barra Puro Vegetal Tododia Acerola e Hibisco" 
+                preçoantigo="28,90" 
+                novopreço="23,10" 
+                descrição="Deixe seu banho melhor com os sabonetes Tododia."
+                link="#">
+            </product-card>
+        </div>
+        <div class="col-md-4">
+            <product-card 
+                img="../img/sabAlegrimeSalvia.jpg" 
+                alt="Imagem do Sabonete em Barra Puro Vegetal Tododia Alecrim e Sálvia" 
+                titulo="Sabonete em Barra Puro Vegetal Tododia Alecrim e Sálvia" 
+                novopreço="28,90" 
+                descrição="Deixe seu banho melhor com os sabonetes Tododia."
+                link="#">
+            </product-card>
+        </div>
+        <div class="col-md-4">
+            <product-card 
+                img="../img/sabTodanoite.jpg"
+                alt="Imagem do Sabonete em Barra Tododia Todanoite" 
+                titulo="Sabonete em Barra Tododia Todanoite" 
+                novopreço="R$ 29,90" 
+                descrição="Os mais queridinhos pelas clientes."
+                link="#">
+            </product-card>
+        </div>
+        <div class="col-md-4">
+            <product-card 
+                img="../img/sabEkosEsfoliante.jpg" 
+                alt="Imagem do Sabonete em Barra Puro Vegetal Ekos Esfoliante" 
+                titulo="Sabonete em Barra Puro Vegetal Ekos Esfoliante" 
+                preçoantigo="35,90" 
+                novopreço="32,90" 
+                descrição="Deixe seu banho melhor com os sabonetes Ekos."
+                link="#">
+            </product-card>
+        </div>
+        <div class="col-md-4">
+            <product-card 
+                img="../img/sabmacadamia.jpg" 
+                alt="Imagem do Sabonete em Barra Puro Vegetal Tododia Macadâmia" 
+                titulo="Sabonete em Barra Puro Vegetal Tododia Macadâmia" 
+                preçoantigo="28,90" 
+                novopreço="25,90" 
+                descrição="A fragrancia de sabonete mais amada pelas clientes."
+                link="../sites_dos_produtos/sabmacadamia.html">
+            </product-card>
+        </div>
+    
+  <footer>
+    <p style="padding-left: 20px;">Nos sigam nas redes sociais <a href="https://www.instagram.com/luperfumariacachoeira/"> @Lú Perfumaria Cachoeira</a></p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz4fnFO9gybBogGzog+UA+e6MZrE6t29f1XaM/02hCq92FYB173l1P0T4p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" ></script>
+</body>
