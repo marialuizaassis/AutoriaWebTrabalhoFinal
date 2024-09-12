@@ -1,0 +1,112 @@
+{
+  "produtos": [
+    { "id": 1,
+      "img":"img/EssencialT.png",
+      "alt": "Imagem do Essencial Feminino",
+      "titulo": "Essencial Tradicional", 
+      "preco": 167.30, 
+      "descricao":"O queridinho das mulheres."
+    }, 
+    {
+      "id": 2,
+      "img": "img/unat.jpg",
+      "alt": "Imagem do Una Deo Parfum",
+      "titulo":"Una Deo Parfum", 
+      "preco": 269.00,
+      "descricao":"O queridinho das mulheres."
+    },
+    {
+      "id": 3,
+      "img": "img/ekosmaracuja.jpg",
+      "alt":"Imagem do Ekos Frescor Maracujá Desodorante Colônia Feminino",
+      "titulo": "Ekos Frescor Maracujá Desodorante Colônia Feminino",
+      "preco": 51.95, 
+      "descricao": "O perfume com a fragrância mais suave."
+    },
+    { "id": 4,
+      "img": "img/bodysplashmangarosa.jpg",
+      "alt":"Imagem do Body Splash Manga Rosa e Água de Coco",
+      "titulo": "Body Splash Manga Rosa e Água de Coco", 
+      "preco": 69.90, 
+      "descricao":"O perfume com a fragrância mais suave."
+    },
+
+    { "id": 5,
+      "img": "img/lunatradicional.jpg",
+      "alt": "Imagem do Luna Desodorante Colônia",
+      "titulo": "Luna Desodorante Colônia",
+      "preco": 78.95,
+      "descricao": "A fragrancia da linha luna mais amada pela clientes."
+    },
+    { "id": 6,
+      "img": "img/KMasculino.jpg",
+      "alt": "Imagem do K Deo Parfum Masculino", 
+      "titulo": "K Deo Parfum Masculino", 
+      "preco": 166.90, 
+      "descricao": "O mais queridinho pelos clientes."
+    },
+    { "id": 7,
+      "img": "img/BiografiaM.jpg", 
+      "alt": "Imagem do Biografia Desodorante Colônia Masculino", 
+      "titulo": "Biografia Desodorante Colônia Masculino", 
+      "preco": 180.90, 
+      "descricao": "A essência mais procurada pelos homens."
+    },
+    { "id": 8,
+      "img": "img/Kaiakmasc.jpeg", 
+      "alt": "Imagem de 2 perfumes DEO Kaiak Masculino", 
+      "titulo": "2 DEO Kaiak Masculino",
+      "preco": 63.81, 
+      "descricao": "Os mais queridinhos pelos clientes."
+    },
+    { "id": 9,
+      "img": "img/CremdebarbearHomem.jpg",
+      "alt": "Imagem do Creme de Barbear Natura Homem", 
+      "titulo": "Creme de Barbear Natura Homem",
+      "preco": 29.90,
+      "descricao": "A essência de creme de barbear melhor."
+    },
+    { "id": 10,
+      "img": "img/balmPBarbaHomem.jpg",
+      "alt": "Imagem do Balm Pós-Barba Natura Homem", 
+      "titulo": "Balm Pós-Barba Natura Homem",
+      "preco": 63.81, 
+      "descricao": "A essência de pós-barba melhor."
+    },
+    { "id": 11,
+      "img": "img/sabAcerolaehisco.jpg",
+      "alt": "Imagem do Sabonete em Barra Puro Vegetal Tododia Acerola e Hibisco", 
+      "titulo": "Sabonete em Barra Puro Vegetal Tododia Acerola e Hibisco",  
+      "preco": 23.10, 
+      "descricao": "Deixe seu banho melhor com os sabonetes Tododia."
+    },
+    { "id": 12,
+      "img": "img/sabAlegrimeSalvia.jpg",
+      "alt": "Imagem do Sabonete em Barra Puro Vegetal Tododia Alecrim e Sálvia", 
+      "titulo": "Sabonete em Barra Puro Vegetal Tododia Alecrim e Sálvia", 
+      "preco": 28.90, 
+      "descricao": "Deixe seu banho melhor com os sabonetes Tododia."
+    },   
+    { "id": 13,
+      "img": "img/sabTodanoite.jpg",
+      "alt": "Imagem do Sabonete em Barra Tododia Todanoite", 
+      "titulo": "Sabonete em Barra Tododia Todanoite", 
+      "preco": 29.90, 
+      "descricao": "Os mais queridinhos pelas clientes."
+    },
+    { "id": 14,
+      "img": "img/sabEkosEsfoliante.jpg", 
+      "alt": "Imagem do Sabonete em Barra Puro Vegetal Ekos Esfoliante", 
+      "titulo": "Sabonete em Barra Puro Vegetal Ekos Esfoliante", 
+      "preco": 32.90, 
+      "descricao": "Deixe seu banho melhor com os sabonetes Ekos."
+    },
+    { "id": 15,
+      "img": "img/sabmacadamia.jpg", 
+      "alt": "Imagem do Sabonete em Barra Puro Vegetal Tododia Macadâmia", 
+      "titulo": "Sabonete em Barra Puro Vegetal Tododia Macadâmia",
+      "preco": 25.90, 
+      "descricao": "A fragrancia de sabonete mais amada pelas clientes."
+    }
+  ]
+}
